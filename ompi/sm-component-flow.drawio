@@ -210,7 +210,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-85" value="check custom params" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="270" width="180" height="50" as="geometry" />
+          <mxGeometry x="1660" y="90" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-87" target="79R4VobELtFQxAv8Cn-7-91">
           <mxGeometry relative="1" as="geometry" />
@@ -229,19 +229,66 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-87" value="have_smsc?" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="340" width="180" height="80" as="geometry" />
+          <mxGeometry x="1660" y="160" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-89" value="The sm supports two mode:&lt;div&gt;- **Two Copy**:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;this mode is&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;where the sender copies data into shared memory and the receiver&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;copies the data out.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp;This mechanism is always available.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- **Single Copy**:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;In this mode, the sender or receiver makes a&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;single copy of the message data from the source buffer in one&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;process to the destination buffer in another process.&amp;nbsp; Open MPI&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;supports three flavors of shared memory single-copy transfers:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- KNEM&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- XPMEM&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;- CMA&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="240" width="360" height="185" as="geometry" />
+          <mxGeometry x="1900" y="60" width="360" height="185" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-89" target="79R4VobELtFQxAv8Cn-7-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-91" target="79R4VobELtFQxAv8Cn-7-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-91" value="set btl params &amp;amp; flags" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="450" width="180" height="50" as="geometry" />
+          <mxGeometry x="1550" y="270" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1750" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-92" value="set get &amp;amp; put function pointer = NULL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="450" width="180" height="50" as="geometry" />
+          <mxGeometry x="1770" y="270" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-98" target="79R4VobELtFQxAv8Cn-7-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-98" value="create share-mem-file and register clean up path" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="370" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-101" target="79R4VobELtFQxAv8Cn-7-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-101" value="attach shmem into component-&amp;gt;my_segment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="450" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-103" target="79R4VobELtFQxAv8Cn-7-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-103" value="fifo_init(use the memory of component-&amp;gt;my_segment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="529.93" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-105" value="send the memory info of this processto other processes(modex)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="610" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-107" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="30" width="730" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-108" value="What happen in init" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="50" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-110" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="214.57999999999998" as="sourcePoint" />
+            <mxPoint x="800" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-111" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.002;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-11" target="79R4VobELtFQxAv8Cn-7-107">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="360" as="sourcePoint" />
+            <mxPoint x="1350" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
