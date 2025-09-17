@@ -130,7 +130,7 @@
         <mxCell id="rg3OKWMBiAoNExpzKlZS-81" value="MPI Application exit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1161" y="650" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rg3OKWMBiAoNExpzKlZS-82" value="Component close" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-82" value="Component close:&lt;div&gt;call free_list deconstructor&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1160" y="720" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.509;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-81" target="rg3OKWMBiAoNExpzKlZS-82">
