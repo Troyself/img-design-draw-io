@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="0clAhx5LEloyA3Ilwh2E">
-    <mxGraphModel dx="2806" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1403" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -114,6 +114,11 @@
         <mxCell id="79R4VobELtFQxAv8Cn-7-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-45" target="79R4VobELtFQxAv8Cn-7-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-73" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="79R4VobELtFQxAv8Cn-7-59">
+          <mxGeometry x="-0.1277" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-45" value="proc &amp;lt; nprocs" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="270" y="690" width="180" height="80" as="geometry" />
         </mxCell>
@@ -160,6 +165,12 @@
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-63" value="proc ++" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="500" y="880" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-71" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1060" width="730" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-72" value="What happen in init_sm_endpoint" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1080" width="490" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
