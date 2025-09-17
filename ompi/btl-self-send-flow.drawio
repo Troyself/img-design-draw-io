@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="T9h0lJlRuLZUJpo1WjlZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1403" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-2" target="rg3OKWMBiAoNExpzKlZS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-2" value="MPI Application" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="324" y="50" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-4" target="rg3OKWMBiAoNExpzKlZS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-4" value="MPI_Send" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="324" y="120" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-6" target="rg3OKWMBiAoNExpzKlZS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-6" value="PML/ob1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="324" y="190" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-8" target="rg3OKWMBiAoNExpzKlZS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-8" value="OPAL/BTL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="324" y="260" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-9" value="BTL/self" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="324" y="330" width="180" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
