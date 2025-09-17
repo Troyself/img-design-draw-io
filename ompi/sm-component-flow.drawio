@@ -206,6 +206,9 @@
         <mxCell id="79R4VobELtFQxAv8Cn-7-79" value="btl_inited = true" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="380" y="709.93" width="220" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-83" target="79R4VobELtFQxAv8Cn-7-128">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-83" value="alloc mem for endpoint" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="1420" width="150" height="50" as="geometry" />
         </mxCell>
@@ -329,6 +332,36 @@
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-127" value="this modex info&amp;nbsp;&lt;div&gt;is provided&lt;div&gt;by PMIx framework.&amp;nbsp;&lt;div&gt;We only get another&lt;/div&gt;&lt;div&gt;process&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rank into&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;rank variable&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="75" y="1360" width="115" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-128" target="79R4VobELtFQxAv8Cn-7-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-132" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="79R4VobELtFQxAv8Cn-7-131">
+          <mxGeometry x="-0.3216" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-133" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="79R4VobELtFQxAv8Cn-7-131">
+          <mxGeometry x="-0.3216" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-128" target="79R4VobELtFQxAv8Cn-7-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-135" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="79R4VobELtFQxAv8Cn-7-134">
+          <mxGeometry x="-0.0983" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-128" value="this endpoint process is self" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1500" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-129" value="ep-&amp;gt;segment_base = component-&amp;gt;my_segmen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1640" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-130" value="ep-&amp;gt;segment_base = component-&amp;gt;my_segmen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1515" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
