@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="T9h0lJlRuLZUJpo1WjlZ">
-    <mxGraphModel dx="2551" dy="1425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="2004" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,15 +41,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-13" value="mca_btl_self_send" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="925" y="290" width="180" height="50" as="geometry" />
+          <mxGeometry x="920" y="310" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1016" y="430" as="targetPoint" />
+            <mxPoint x="1011" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-14" value="recv callback" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="926" y="360" width="180" height="50" as="geometry" />
+          <mxGeometry x="921" y="380" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.509;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-9" target="rg3OKWMBiAoNExpzKlZS-11">
           <mxGeometry relative="1" as="geometry" />
@@ -58,19 +58,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-20" value="MPI_Recv" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="926" y="430" width="180" height="50" as="geometry" />
+          <mxGeometry x="921" y="450" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-22" target="rg3OKWMBiAoNExpzKlZS-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-22" value="Get data from MPI framework" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="926" y="500" width="180" height="50" as="geometry" />
+          <mxGeometry x="921" y="520" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-23" value="MPI Application exit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="926" y="570" width="180" height="50" as="geometry" />
+          <mxGeometry x="921" y="590" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-25" value="Component close" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="925" y="640" width="180" height="50" as="geometry" />
+          <mxGeometry x="920" y="660" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.509;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-23" target="rg3OKWMBiAoNExpzKlZS-25">
           <mxGeometry relative="1" as="geometry" />
@@ -94,11 +94,27 @@
         <mxCell id="rg3OKWMBiAoNExpzKlZS-32" value="inline send?&lt;div&gt;(if data is continuous and&lt;/div&gt;&lt;div&gt;not on device)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="924" y="70" width="180" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-35" target="rg3OKWMBiAoNExpzKlZS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-35" value="set frag-&amp;gt;seg[1].addr = addr&lt;div&gt;set frag-&amp;gt;seg[1].size = size&lt;/div&gt;&lt;div&gt;(addr and size are prepare_src&#39;s args)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="750" y="190" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-36" target="rg3OKWMBiAoNExpzKlZS-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-36" value="pack data into frag-&amp;gt;seg[0].addr + reserve&lt;div&gt;update frag-&amp;gt;seg[0].size&lt;br&gt;&lt;div&gt;(reserve is prepare_src&#39;s arg)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1050" y="190" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-41" target="rg3OKWMBiAoNExpzKlZS-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="600" />
+              <mxPoint x="720" y="600" />
+              <mxPoint x="720" y="50" />
+              <mxPoint x="1014" y="50" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-41" value="alloc frag:&lt;div&gt;frag-&amp;gt;seg[0].addr = frag-&amp;gt;data&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="530" width="180" height="50" as="geometry" />
@@ -108,6 +124,33 @@
         </mxCell>
         <mxCell id="rg3OKWMBiAoNExpzKlZS-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.542;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-41" target="rg3OKWMBiAoNExpzKlZS-44">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-51" value="&lt;div&gt;if inline send:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; seg[0] = head info&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; seg[1] = buffer addr&lt;/div&gt;&lt;div&gt;else&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; seg[0] = head info + buffer contents&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; seg[1] is useless&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="140" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-52" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.001;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-36" target="rg3OKWMBiAoNExpzKlZS-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1270" y="230" as="sourcePoint" />
+            <mxPoint x="1320" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1320" y="230" />
+              <mxPoint x="1330" y="180" />
+              <mxPoint x="1340" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rg3OKWMBiAoNExpzKlZS-53" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rg3OKWMBiAoNExpzKlZS-35" target="rg3OKWMBiAoNExpzKlZS-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="120" as="sourcePoint" />
+            <mxPoint x="1350" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="100" />
+              <mxPoint x="1260" y="70" />
+              <mxPoint x="1280" y="70" />
+              <mxPoint x="1290" y="70" />
+              <mxPoint x="1320" y="80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
