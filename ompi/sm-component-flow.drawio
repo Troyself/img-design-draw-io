@@ -1,47 +1,98 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="0clAhx5LEloyA3Ilwh2E">
-    <mxGraphModel dx="1403" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2004" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="79R4VobELtFQxAv8Cn-7-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="730" height="490" as="geometry" />
+        </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-3" target="79R4VobELtFQxAv8Cn-7-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-3" value="MPI Run" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="324" y="70" width="180" height="50" as="geometry" />
+          <mxGeometry x="1050" y="340" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-5" target="79R4VobELtFQxAv8Cn-7-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-5" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="324" y="140" width="180" height="50" as="geometry" />
+          <mxGeometry x="1050" y="410" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-7" target="79R4VobELtFQxAv8Cn-7-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-7" value="Component register" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="324" y="210" width="180" height="50" as="geometry" />
+          <mxGeometry x="1050" y="480" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-9" target="79R4VobELtFQxAv8Cn-7-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-9" value="Component open" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="324" y="280" width="180" height="50" as="geometry" />
+          <mxGeometry x="1050" y="550" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-11" target="79R4VobELtFQxAv8Cn-7-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-11" value="Component init" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="324" y="350" width="180" height="50" as="geometry" />
+          <mxGeometry x="1050" y="620" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-13" target="79R4VobELtFQxAv8Cn-7-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-13" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="324" y="420" width="180" height="50" as="geometry" />
+          <mxGeometry x="1050" y="690" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-14" value="&amp;nbsp;mca_btl_self_add_procs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="324" y="490" width="180" height="50" as="geometry" />
+          <mxGeometry x="1050" y="760" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-18" target="79R4VobELtFQxAv8Cn-7-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-18" value="register mca customparams into MPI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-20" target="79R4VobELtFQxAv8Cn-7-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="430" />
+              <mxPoint x="235" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-28" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="79R4VobELtFQxAv8Cn-7-27">
+          <mxGeometry x="0.2885" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-20" target="79R4VobELtFQxAv8Cn-7-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-30" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="79R4VobELtFQxAv8Cn-7-29">
+          <mxGeometry x="-0.202" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-20" value="has /dev/shm?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="340" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-22" target="79R4VobELtFQxAv8Cn-7-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-22" value="component.dir = /dev/shm" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="450" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="79R4VobELtFQxAv8Cn-7-23" target="79R4VobELtFQxAv8Cn-7-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-23" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;the default location will be the OMPI session&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;directory. The path is typically something like:&lt;/div&gt;&lt;div&gt;``/dev/shm/sm_segment.nodename.user_id.job_id.my_node_rank``.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;container=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="420" y="450" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-31" value="config MPI params" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="560" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="79R4VobELtFQxAv8Cn-7-37" value="What happen in register" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="390" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
