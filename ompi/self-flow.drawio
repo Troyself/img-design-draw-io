@@ -40,7 +40,7 @@
         <mxCell id="6xK6vwWIE_z2Mid3gq3f-26" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="324" y="390" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6xK6vwWIE_z2Mid3gq3f-27" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="6xK6vwWIE_z2Mid3gq3f-27" value="&amp;nbsp;mca_btl_self_add_procs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="324" y="460" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
