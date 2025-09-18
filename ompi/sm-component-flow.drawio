@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="0clAhx5LEloyA3Ilwh2E">
-    <mxGraphModel dx="2338" dy="1307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="4677" dy="2613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="W021k8p_-Hx1yk9nC9fz-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="759.93" width="730" height="360.07" as="geometry" />
+        </mxCell>
         <mxCell id="79R4VobELtFQxAv8Cn-7-107" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" parent="1" vertex="1">
           <mxGeometry x="1200" y="20" width="730" height="680" as="geometry" />
         </mxCell>
@@ -365,17 +368,20 @@
         <mxCell id="95oa1PHuZL-g6GC6NEn--1" value="ep-&amp;gt;segmen_base attach shmem(from another process)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="310" y="1630" width="150" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="W021k8p_-Hx1yk9nC9fz-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W021k8p_-Hx1yk9nC9fz-1" target="W021k8p_-Hx1yk9nC9fz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W021k8p_-Hx1yk9nC9fz-1" value="alloc mem for endpoint&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22send%20the%20memory%20info%20of%20this%20processto%20other%20processes(modex)%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221320%22%20y%3D%22600%22%20width%3D%22180%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22send%20the%20memory%20info%20of%20this%20processto%20other%20processes(modex)%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221320%22%20y%3D%22600%22%20width%3D%22180%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1440" y="819.93" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W021k8p_-Hx1yk9nC9fz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W021k8p_-Hx1yk9nC9fz-2" target="W021k8p_-Hx1yk9nC9fz-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W021k8p_-Hx1yk9nC9fz-2" value="alloc mem for fbox_in_endpoint" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1440" y="890" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W021k8p_-Hx1yk9nC9fz-3" value="init opal_free_list" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="969.93" width="180" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="W021k8p_-Hx1yk9nC9fz-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="759.93" width="730" height="310.07" as="geometry" />
+          <mxGeometry x="1440" y="1030" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="W021k8p_-Hx1yk9nC9fz-5" value="What happen in sm_first_time_init" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="1220" y="770" width="490" height="30" as="geometry" />
@@ -386,9 +392,15 @@
             <mxPoint x="670" y="665.0699999999999" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1080" y="660" />
-              <mxPoint x="1080" y="915" />
+              <mxPoint x="1080" y="940" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="W021k8p_-Hx1yk9nC9fz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W021k8p_-Hx1yk9nC9fz-8" target="W021k8p_-Hx1yk9nC9fz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W021k8p_-Hx1yk9nC9fz-8" value="component-&amp;gt;mpool = pool_create(based on my_segment)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="960" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
