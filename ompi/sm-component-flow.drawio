@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="0clAhx5LEloyA3Ilwh2E">
-    <mxGraphModel dx="4009" dy="2240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2338" dy="1307" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -296,7 +296,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="79R4VobELtFQxAv8Cn-7-115" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="79R4VobELtFQxAv8Cn-7-115" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="946.74" y="520" as="sourcePoint" />
             <mxPoint x="790" y="900" as="targetPoint" />
@@ -380,7 +380,7 @@
         <mxCell id="W021k8p_-Hx1yk9nC9fz-5" value="What happen in sm_first_time_init" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="1220" y="770" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="W021k8p_-Hx1yk9nC9fz-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="W021k8p_-Hx1yk9nC9fz-4">
+        <mxCell id="W021k8p_-Hx1yk9nC9fz-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" target="W021k8p_-Hx1yk9nC9fz-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="665.0699999999999" as="sourcePoint" />
             <mxPoint x="670" y="665.0699999999999" as="targetPoint" />
