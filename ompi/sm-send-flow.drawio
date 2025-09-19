@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="k_nHkI2DBGjTYLYa_qYr">
-    <mxGraphModel dx="7429" dy="2753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="4734" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZcWyejCCKngTNAfOxGtZ-99" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="25" width="840" height="630" as="geometry" />
+        </mxCell>
         <mxCell id="ZcWyejCCKngTNAfOxGtZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" parent="1" vertex="1">
           <mxGeometry x="-110" y="10" width="840" height="630" as="geometry" />
         </mxCell>
@@ -170,6 +173,15 @@
             <mxPoint x="1859.25" y="357.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KGTT8sj1vmuwW7QM5DOp-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;curved=1;" edge="1" parent="1" source="ZcWyejCCKngTNAfOxGtZ-79" target="KGTT8sj1vmuwW7QM5DOp-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1943" y="210" />
+              <mxPoint x="2044" y="210" />
+              <mxPoint x="2044" y="268" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZcWyejCCKngTNAfOxGtZ-79" value="fifo to write" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1868.5" y="237.5" width="149" height="60" as="geometry" />
         </mxCell>
@@ -217,9 +229,6 @@
         <mxCell id="ZcWyejCCKngTNAfOxGtZ-94" value="write end" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1779.25" y="557.5" width="149" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZcWyejCCKngTNAfOxGtZ-99" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" parent="1" vertex="1">
-          <mxGeometry x="1440" y="25" width="840" height="630" as="geometry" />
-        </mxCell>
         <mxCell id="ZcWyejCCKngTNAfOxGtZ-100" value="What happen in send" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
           <mxGeometry x="1449" y="32.5" width="390" height="30" as="geometry" />
         </mxCell>
@@ -232,6 +241,9 @@
               <mxPoint x="1310" y="330" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KGTT8sj1vmuwW7QM5DOp-1" value="lock-free FIFO" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=none;align=left;size=17;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="252.5" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
