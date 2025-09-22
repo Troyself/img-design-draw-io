@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="qFQFJwMu1FN717Uub-w1">
-    <mxGraphModel dx="2395" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1163" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="n9W7JepnubhFWFxNoGu9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="400" height="510" as="geometry" />
+        </mxCell>
         <mxCell id="BzUi3YhWm0vWecap3dS3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="BzUi3YhWm0vWecap3dS3-2" target="BzUi3YhWm0vWecap3dS3-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -80,7 +83,10 @@
         <mxCell id="BzUi3YhWm0vWecap3dS3-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="BzUi3YhWm0vWecap3dS3-25" target="BzUi3YhWm0vWecap3dS3-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BzUi3YhWm0vWecap3dS3-25" value="check fastbox and progress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="n9W7JepnubhFWFxNoGu9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;" edge="1" parent="1" source="BzUi3YhWm0vWecap3dS3-25" target="n9W7JepnubhFWFxNoGu9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzUi3YhWm0vWecap3dS3-25" value="progress_endpoints" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="50" y="320" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BzUi3YhWm0vWecap3dS3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BzUi3YhWm0vWecap3dS3-26" target="BzUi3YhWm0vWecap3dS3-27" edge="1">
@@ -205,9 +211,6 @@
         <mxCell id="BzUi3YhWm0vWecap3dS3-75" value="fifo_count ++" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="980" y="740" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="n9W7JepnubhFWFxNoGu9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=5;" vertex="1" parent="1">
-          <mxGeometry x="20" y="60" width="400" height="510" as="geometry" />
-        </mxCell>
         <mxCell id="n9W7JepnubhFWFxNoGu9-2" value="What happen in progress" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="30" y="70" width="340" height="30" as="geometry" />
         </mxCell>
@@ -238,6 +241,9 @@
               <mxPoint x="620" y="650" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="n9W7JepnubhFWFxNoGu9-7" value="progress pending&lt;div&gt;actually&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=none;align=left;size=17;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
