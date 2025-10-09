@@ -1,11 +1,67 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.3">
   <diagram name="第 1 页" id="1ilw-WLotnf_4WlkD7nu">
-    <mxGraphModel dx="2036" dy="1101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1697" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="A_ogrFLxcLxrX9YmPOqr-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="390" width="180" height="50" as="geometry" />
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A_ogrFLxcLxrX9YmPOqr-2" target="AxJ9_XIlFzwpc8d086Lr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A_ogrFLxcLxrX9YmPOqr-2" value="6.16已经结束，内核开启6.17新版本" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="490" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AxJ9_XIlFzwpc8d086Lr-1" target="AxJ9_XIlFzwpc8d086Lr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-1" value="6.17 merge window" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="280" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-3" value="6.17-rc1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="280" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-5" value="将持续2周左右的时间接收新特性，新驱动等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="270" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-6" value="从此刻开始，6.17版本将不再接受任何新特性，新驱动。&lt;div&gt;仅接受bug fix或者小更改&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-8" value="6.16-rc1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="165" as="sourcePoint" />
+            <mxPoint x="240.00000000000023" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AxJ9_XIlFzwpc8d086Lr-11" target="AxJ9_XIlFzwpc8d086Lr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AxJ9_XIlFzwpc8d086Lr-11" target="AxJ9_XIlFzwpc8d086Lr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-11" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-12" value="6.16-rc9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-14" value="如果新特性驱动想出现在6.17中，就要在6.16的rc阶段发送补丁" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="200" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="AxJ9_XIlFzwpc8d086Lr-15" target="AxJ9_XIlFzwpc8d086Lr-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="580" />
+              <mxPoint x="730" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-15" value="patch在某个rc被子系统maintainer收入他的树中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="460" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AxJ9_XIlFzwpc8d086Lr-18" value="在merge window时，由子系统maintainer发起PR,请求合并到6.17中（此时新特性驱动已经在这个PR中了）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="520" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
