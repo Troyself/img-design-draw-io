@@ -54,11 +54,6 @@
         <mxCell id="rSIq-TXOGQutWpHFiMge-7" value="core 4 is disabled" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="rSIq-TXOGQutWpHFiMge-3" vertex="1">
           <mxGeometry x="24.999999999999545" y="40" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rSIq-TXOGQutWpHFiMge-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="rSIq-TXOGQutWpHFiMge-3" source="rSIq-TXOGQutWpHFiMge-12" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="99.99999999999955" y="319.9999999999998" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rSIq-TXOGQutWpHFiMge-12" value="wait uboot to load image and dtb" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="rSIq-TXOGQutWpHFiMge-3" vertex="1">
           <mxGeometry x="24.999999999999545" y="250" width="150" height="50" as="geometry" />
         </mxCell>
@@ -70,6 +65,9 @@
         </mxCell>
         <mxCell id="rSIq-TXOGQutWpHFiMge-25" value="emmc as rootfs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="rSIq-TXOGQutWpHFiMge-3" vertex="1">
           <mxGeometry x="19.999999999999545" y="460" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="j45-h5pcbJH62HqH3jBe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.534;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rSIq-TXOGQutWpHFiMge-3" source="rSIq-TXOGQutWpHFiMge-12" target="rSIq-TXOGQutWpHFiMge-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rSIq-TXOGQutWpHFiMge-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="rSIq-TXOGQutWpHFiMge-1" source="rSIq-TXOGQutWpHFiMge-11" target="rSIq-TXOGQutWpHFiMge-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
