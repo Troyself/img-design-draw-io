@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="第 1 页" id="2b75HJxKEcApHD7kW2oa">
-    <mxGraphModel>
+    <mxGraphModel dx="1163" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-1" value="OpenSBI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="540" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-3" value="Cluster 0&lt;div&gt;(core0 - core3)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="470" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-4" value="Cluster 1&lt;div&gt;(core4 - core7)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="470" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-6" value="Linux A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="400" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-8" value="Linux B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="400" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-10" value="EMAC 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="330" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-11" value="UART 9" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="330" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-12" value="SDCARD" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="330" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-13" value="EMAC 1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="330" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-14" value="UART 0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="330" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-15" value="EMMC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="330" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;glass=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="920" y="290" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;glass=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="290" width="280" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-22" value="System A" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="66QDR9yYcWjZVRPwvRVt-23" value="System B" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
